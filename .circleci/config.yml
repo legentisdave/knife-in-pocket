@@ -1,4 +1,4 @@
-jobs: # a basic unit of work in a run
+version: 2 # use version 2.0 of CircleCI
   build: # runs not using `Workflows` must have a `build` job as entry point
     macos:  # indicate that we are using the macOS executor
       xcode: "10.0.0" # indicate our selected version of Xcode
